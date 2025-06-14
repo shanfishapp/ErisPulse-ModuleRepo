@@ -9,13 +9,12 @@ import hashlib
 
 config = {
     "module_name": "YourModuleName",                   # 模块名称
-    "github_username": "your_github_username",         # 你的 GitHub 用户名
+    "github_username": "shanfishapp",         # 你的 GitHub 用户名
     "official_repo": "ErisPulse/ErisPulse-ModuleRepo", # 官方仓库地址（一般无需更改）
-    "local_module_path": "YourModuleName",             # 本地模块文件夹路径
+    "local_module_path": "",             # 本地模块文件夹路径
     "files_to_include": [                              # 需要包含的文件列表
-        "YourModuleName/__init__.py",
-        "YourModuleName/Core.py",
-        "README.md"
+        "GetWeather/__init__.py",
+        "GetWeather/Core.py",
     ]
 }
 
