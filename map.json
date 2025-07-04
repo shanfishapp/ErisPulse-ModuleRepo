@@ -245,6 +245,25 @@
                 "pip": []
             },
             "build_time": "2025-07-04T17:30:08.170578"
+        },
+        "SystemStatus": {
+            "path": "/SystemStatus-1.0.0.zip",
+            "meta": {
+                "name": "SystemStatus",
+                "version": "1.0.0",
+                "description": "获取系统内存、CPU、硬盘占用",
+                "author": "ShanFish",
+                "license": "MIT",
+                "homepage": null
+            },
+            "dependencies": {
+                "requires": [],
+                "optional": [],
+                "pip": [
+                    "psutil"
+                ]
+            },
+            "build_time": "2025-07-04T19:36:45.829396"
         }
     }
 }
